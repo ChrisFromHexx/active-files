@@ -1,7 +1,7 @@
 {
   "name": "active-files",
   "main": "./lib/active-files",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hides files in the tree view that haven't been modified since the last git commit.",
   "keywords": [],
   "activationCommands": {
