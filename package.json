@@ -1,0 +1,18 @@
+{
+  "name": "active-files",
+  "main": "./lib/active-files",
+  "version": "1.0.0",
+  "description": "Hides files in the tree view that haven't been modified since the last git commit.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "active-files:toggle"
+  },
+  "repository": "https://github.com/ChrisFromHexx/active-files.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
