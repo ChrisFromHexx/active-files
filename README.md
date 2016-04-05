@@ -1,6 +1,6 @@
 # active-files package
 
-Hides files in the tree view that haven't been modified since the last git commit.
+Hides or reveals files and folders in the tree view that haven't been modified since the last git commit.
 
 This package will appear not to work if your files are not part of a git repository.
 

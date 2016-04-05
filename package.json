@@ -2,15 +2,44 @@
   "name": "active-files",
   "main": "./lib/active-files",
   "version": "1.1.0",
-  "description": "Hides files in the tree view that haven't been modified since the last git commit.",
+  "description": "Hides or reveals files and folders in the tree view that haven't been modified since the last git commit.",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "active-files:toggle"
+    "atom-workspace": [
+			 "active-files:toggle",
+			 "active-files:folders"
+		 ]
   },
-  "repository": "https://github.com/ChrisFromHexx/active-files.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisFromHexx/active-files.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "readme": "# active-files package\n\nHides or reveals files and folders in the tree view that haven't been modified since the last git commit.\n\nThis package will appear not to work if your files are not part of a git repository.\n\nBy default Command-Alt-R toggles between hide/reveal states.\n\n![active-files tree view toggling](https://github.com/ChrisFromHexx/active-files/blob/master/active-files-toggle.gif?raw=true)\n``\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/ChrisFromHexx/active-files/issues"
+  },
+  "homepage": "https://github.com/ChrisFromHexx/active-files#readme",
+  "_id": "active-files@1.2.0",
+  "_shasum": "bf6b54794cad1f3f5e095c2dbc6c5e4a031ec52f",
+  "_resolved": "file:../d-11635-35879-3ltd38/package.tgz",
+  "_from": "../d-11635-35879-3ltd38/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/active-files.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }

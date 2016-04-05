@@ -13,8 +13,12 @@
       'label': 'Active Files'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'Toggle Files'
           'command': 'active-files:toggle'
+        },
+        {
+          'label': 'Toggle Folder Trees'
+          'command': 'active-files:folders'
         }
       ]
     ]

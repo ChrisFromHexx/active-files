@@ -1,6 +1,7 @@
 {
 	"atom-workspace":
 	{
-		"cmd-alt-r" : "active-files:toggle"
+		"alt-cmd-r": "active-files:toggle",
+		"shift-alt-cmd-r": "active-files:folders"
 	}
 }
