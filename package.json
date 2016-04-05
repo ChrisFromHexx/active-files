@@ -1,14 +1,14 @@
 {
   "name": "active-files",
   "main": "./lib/active-files",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Hides or reveals files and folders in the tree view that haven't been modified since the last git commit.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-			 "active-files:toggle",
-			 "active-files:folders"
-		 ]
+      "active-files:toggle",
+      "active-files:folders"
+    ]
   },
   "repository": {
     "type": "git",
